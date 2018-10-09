@@ -1,0 +1,15 @@
+name: ariadne
+channels:
+  - anaconda
+  - defaults
+dependencies:
+  - matplotlib=2.2.2
+  - networkx=2.1
+  - scikit-image=0.13.1
+  - numpy=1.14.3
+  - numpy-base=1.14.3
+  - python=3.6.5
+  - configparser=3.5.0
+  - pip:
+    - opencv-python==3.4.1.15
+prefix: /home/daniele/anaconda3/envs/ariadne
