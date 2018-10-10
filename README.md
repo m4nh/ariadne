@@ -19,7 +19,7 @@ conda activate ariadne
 To try Ariadne you can launch:
 
 ```
-python manual_path_finder.py --image_file images/image_1.jpg --config_name defaults
+python manual_path_finder.py --image_file images/image_1.jpg --config_name default
 ```
 
 The ```config_name``` refers to the Section defined in the ```configs.ini``` configuration file. As an alternative you can try
