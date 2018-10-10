@@ -30,4 +30,4 @@ python manual_path_finder.py --image_file images/image_2.jpg --config_name clutt
 ```
 
 At the beginning, the script displays the image, then with the ```spacebar``` you can launch the superpixels segmentaion. Hence, 
-click with mouse on two random cable terminals and press ```spacebar``` again to start the iterative segmentation procedure.
+click with mouse on two random cable terminals and press ```spacebar``` again to start the iterative segmentation procedure. If necessary, you can close the script pressing ```q``` with the focus on the main window.
