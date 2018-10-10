@@ -1,5 +1,19 @@
 # Ariadne
 
+## Dependencies
+
+The ```anaconda_environment.yml``` contains the mandatory dependencies for the Ariadne package. With anaconda installed you can directly create an environment from this manifest with:
+
+```
+conda env create -f anaconda_environment.yml
+```
+
+And then activate it with:
+
+```
+conda activate ariadne
+```
+
 ## Manual detection script
 
 To try Ariadne you can launch:
@@ -16,4 +30,4 @@ python manual_path_finder.py --image_file images/image_2.jpg --config_name clutt
 ```
 
 At the beginning, the script displays the image, then with the ```spacebar``` you can launch the superpixels segmentaion. Hence, 
-with the mouse click on two random cable terminals and press ```spacebar``` again to start the iterative segmentation procedure.
+click with mouse on two random cable terminals and press ```spacebar``` again to start the iterative segmentation procedure.
